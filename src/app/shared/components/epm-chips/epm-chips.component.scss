@@ -1,0 +1,30 @@
+.chip-container {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  border-radius: 24px;
+  border: 2px solid #363a7e;
+  cursor: pointer;
+}
+
+.chip-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.chip-name {
+  margin-right: 8px;
+}
+
+.chip-status {
+  width: 16px;
+  height: 16px;
+  margin-left: 0px;
+  margin-right: 8px;
+}
+
+.active {
+  background-color: #ebeeff;
+}

@@ -1,0 +1,11 @@
+<div class="chip-container" [class.active]="isActive" (click)="onClick()">
+
+  <img class="chip-icon" src="{{getChipIconSrc(chips)}}" alt="{{ chips }}" />
+
+  <span class="chip-name">{{ chips }}</span>
+
+  <img *ngIf="isEditable && isActive" class="chip-status" src="assets/icons/cross.svg" width="24" height="24" alt="cross"/>
+
+  <img *ngIf="isEditable && !isActive" class="chip-status" src="assets/icons/plus.svg" width="24" height="24" alt="plus"/>
+
+</div>
